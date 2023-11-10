@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    width: 580px;
+    height: 410px;
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+    box-shadow: 30px 20px 60px 10px hsl(241, 100%, 89%);
+    text-align: center;
+}
+
+.container1{
+    width: 300px;
+    height: 410px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 25px;
+}
+.another-con{
+    padding: 30px 20px;
+    text-align: left;
+    gap: 34;
+}
+.summary{
+    font-size: 20px;
+    color: hsl(224, 30%, 27%);
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.image1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    background: hsl(0, 54%, 93%);
+    border-radius: 5px;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.reaction{
+    color: hsl(0, 100%, 67%);
+}
+.number1{
+    color: hsl(224, 30%, 27%);
+}
+.image2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    background: hsl(0, 54%, 93%);
+    border-radius: 5px;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.image3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    background: hsl(0, 54%, 93%);
+    border-radius: 5px;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.image4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    background: hsl(0, 54%, 93%);
+    border-radius: 5px;
+    gap: 30px; 
+    margin-bottom: 20px;
+}
+.Continue{
+    width: 240px;
+    height: 40px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border: 0px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+}
+.result{
+    font-size: 18px;
+    font-weight: 800;
+    color: hsl(241, 100%, 89%);
+    padding-top: 30px;
+}
+.circle{
+    width: 160px;
+    height: 160px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 100px;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+.num{
+    font-size: 19px;
+    font-weight: 400;
+    color: hsl(241, 100%, 89%);
+    padding: 30px;
+}
+.seven{
+    font-size: 80px;
+    font-weight: 900;
+    color: white;
+}
+.Great{
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.text{
+    font-size: 15px;
+    color: hsl(241, 100%, 89%);
+    padding: 15px 52px;
+}
+
+
+@media (max-width: 390px) {
+    body{
+        display: block;
+        justify-content: none;
+        align-items: center;
+        height: 100vh;
+    }
+    .container{
+        display: block;
+        width: 0px;
+        height: 0px;
+        background: rgb(255, 255, 255);
+        border-radius: 25px;
+        box-shadow: 0px 0px 0px 0px hsl(241, 100%, 89%);
+        text-align: center;
+    }
+    .container1{
+        width: 293px;
+        height: 250px;
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        border-radius: 0px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    .another-con{
+        padding: 30px 20px;
+        text-align: center;
+        gap: 34;
+    }
+    .summary{
+        font-size: 15px;
+        color: hsl(224, 30%, 27%);
+        font-weight: 900;
+        padding-bottom: 20px;
+    }
+    .image1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 210px;
+        height: 40px;
+        background: hsl(0, 54%, 93%);
+        border-radius: 5px;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+    .reaction{
+        color: hsl(0, 100%, 67%);
+    }
+    .number1{
+        color: hsl(224, 30%, 27%);
+    }
+    .image2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 210px;
+        height: 40px;
+        background: hsl(0, 54%, 93%);
+        border-radius: 5px;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+    .image3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 210px;
+        height: 40px;
+        background: hsl(0, 54%, 93%);
+        border-radius: 5px;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+    .image4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 210px;
+        height: 40px;
+        background: hsl(0, 54%, 93%);
+        border-radius: 5px;
+        gap: 30px; 
+        margin-bottom: 20px;
+    }
+    .Continue{
+        width: 210px;
+        height: 40px;
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        border: 0px;
+        border-radius: 20px;
+        font-size: 15px;
+        color: white;
+    }
+    .result{
+        font-size: 18px;
+        font-weight: 800;
+        color: hsl(241, 100%, 89%);
+        padding-top: 30px;
+    }
+    .circle{
+        width: 120px;
+        height: 120px;
+        background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+        border-radius: 100px;
+        margin-left: 65px;
+        margin-top: 10px;
+    }
+    .num{
+        font-size: 19px;
+        font-weight: 400;
+        color: hsl(241, 100%, 89%);
+        padding: 30px;
+    }
+    .seven{
+        font-size: 50px;
+        font-weight: 900;
+        color: white;
+    }
+    .Great{
+        color: white;
+        font-size: 20px;
+        padding-top: 0px;
+    }
+    .text{
+        font-size: 10px;
+        color: hsl(241, 100%, 89%);
+        padding: 10px 52px;
+    }
+}
